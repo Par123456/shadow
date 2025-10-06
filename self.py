@@ -2550,7 +2550,7 @@ async def backup_handler(event):
     if not self_enabled:
         return
     backup_data = {
-        "backup_signature": "alfred_selfbot_backup_v1",
+        "backup_signature": "no1_selfbot_backup_v1",
         "name_list": name_list,
         "rotate_enabled": rotate_enabled,
         "current_index": current_index,
